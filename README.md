@@ -1,24 +1,10 @@
-# README
+# Real time event comment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Here you will see magic of actioncable and if you want to see this running just fork it and get done with database migration.
 
-Things you may want to cover:
+after migration run rake db:seed to load users and events in Database.
 
-* Ruby version
+After all this just open 2 session obviously in diff. browsers or incognito mode and login with different users and there you go!!!
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You will see real time comment and increasing number of comment count on Event listing page. :)
